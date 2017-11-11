@@ -1,5 +1,6 @@
 class BuyController < ApplicationController
 
+
   def error(message, code, description)
     render status: code,json: {
       message: message,
